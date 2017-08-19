@@ -14,6 +14,7 @@
 		7C08EA531F47E8B2003A2F2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C08EA511F47E8B2003A2F2B /* LaunchScreen.storyboard */; };
 		7C08EA5E1F47E8B2003A2F2B /* MapsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08EA5D1F47E8B2003A2F2B /* MapsSampleTests.swift */; };
 		7C08EA691F47E8B3003A2F2B /* MapsSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08EA681F47E8B3003A2F2B /* MapsSampleUITests.swift */; };
+		7C08EA7D1F47F09D003A2F2B /* GoogleMapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08EA7C1F47F09D003A2F2B /* GoogleMapManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7C08EA641F47E8B3003A2F2B /* MapsSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapsSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C08EA681F47E8B3003A2F2B /* MapsSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsSampleUITests.swift; sourceTree = "<group>"; };
 		7C08EA6A1F47E8B3003A2F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C08EA7C1F47F09D003A2F2B /* GoogleMapManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleMapManager.swift; path = GoogleMapManager/GoogleMapManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		7C08EA471F47E8B2003A2F2B /* MapsSample */ = {
 			isa = PBXGroup;
 			children = (
+				7C08EA7F1F47F0AF003A2F2B /* GoogleMapManager */,
 				7C08EA481F47E8B2003A2F2B /* AppDelegate.swift */,
 				7C08EA4A1F47E8B2003A2F2B /* ViewController.swift */,
 				7C08EA4C1F47E8B2003A2F2B /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				7C08EA6A1F47E8B3003A2F2B /* Info.plist */,
 			);
 			path = MapsSampleUITests;
+			sourceTree = "<group>";
+		};
+		7C08EA7F1F47F0AF003A2F2B /* GoogleMapManager */ = {
+			isa = PBXGroup;
+			children = (
+				7C08EA7C1F47F09D003A2F2B /* GoogleMapManager.swift */,
+			);
+			name = GoogleMapManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C08EA7D1F47F09D003A2F2B /* GoogleMapManager.swift in Sources */,
 				7C08EA4B1F47E8B2003A2F2B /* ViewController.swift in Sources */,
 				7C08EA491F47E8B2003A2F2B /* AppDelegate.swift in Sources */,
 			);
